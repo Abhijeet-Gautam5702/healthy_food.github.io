@@ -1,0 +1,219 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  overflow-x: hidden;
+  font-family: "Poppins", "sans-serif";
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: cyan; */
+}
+#page-1 {
+  background: url("ella-olsson-rD3YrnhTmf0-unsplash.jpg");
+  background-size: 100vw 125vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.page-1-text {
+  background-color: white;
+  color: black;
+  font-weight: 1000;
+  font-size: 6vmin;
+  display: block;
+  width: fit-content;
+  padding: 0.7%;
+  border-radius: 10px;
+  transform: translate(35vw, 37vh);
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+#page-2 {
+  display: flex;
+  flex-flow: column wrap;
+  /* background-color: red; */
+}
+#p2-head {
+  color: black;
+}
+#p2-head > p {
+  width: 55%;
+  font-size: 39px;
+  margin-left: 84px;
+  margin-top: 55px;
+  margin-bottom: 0;
+}
+#p2-subhead {
+  color: black;
+}
+#p2-subhead > p {
+  width: 43%;
+  margin-left: 640px;
+  /* font-weight:bolder; */
+  font-size: 14px;
+  /* color: rgb(163, 163, 163); */
+}
+#p2-brkfst {
+  /* background-color: aquamarine; */
+  color: black;
+  width: 40%;
+  height: fit-content;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 40px;
+  /* transform: translateY(80px); */
+  text-align: right;
+  height: fit-content;
+}
+#p2-brkfst > h1 {
+  font-size: 41px;
+  margin-top: 0;
+  margin-bottom: 0;
+  /* text-align: right; */
+}
+#p2-brkfst > p {
+  font-size: 15px;
+  margin-top: 5px;
+}
+#p2-images {
+  width: fit-content;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  /* background-color: rgb(192, 37, 37); */
+  position: absolute;
+  right: 20px;
+  transform: translateY(300px);
+}
+.p2-img {
+  padding: 5px;
+  /* border-radius: 10px ; */
+  padding-left: 30px;
+}
+#p2-img-2 {
+  height: 350px;
+  width: 270px;
+  order: 1;
+}
+#p2-img-1 {
+  height: 470px;
+  width: 350px;
+  order: 2;
+}
+#p2-color-box {
+  height: 600px;
+  width: 465px;
+  background-color: rgb(246, 171, 58);
+  position: absolute;
+  right: 127px;
+  transform: translateY(248px);
+  z-index: -1;
+}
+#p2-link-box {
+  text-decoration: none;
+  width: 40%;
+  height: 500px;
+  /* background-color: blueviolet; */
+  margin-left: 40px;
+}
+.p2-links {
+  margin-top: 25%;
+  margin-left: 10%;
+}
+.p2-links > ul {
+  /* background-color: azure; */
+  width: fit-content;
+  height: fit-content;
+  text-align: left;
+  font-weight: bolder;
+  font-size: 21px;
+  line-height: 38px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+a:hover {
+  color: rgb(246, 171, 58);
+}
+#page-3 {
+  /* background-color: bisque; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+#p3-microInfo {
+  width: 40%;
+  /* background-color: aqua; */
+  /* border: 2px solid black; */
+  height: fit-content;
+  padding: 10px;
+  text-align: left;
+}
+#p3-microInfo-head {
+  margin: 0;
+  font-size: 37px;
+  line-height: 51px;
+  /* font-weight: bolder; */
+}
+#p3-microInfo-readMore {
+  font-size: 20px;
+  font-weight: 900;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+#p3-microInfo-readMore:hover {
+  color: rgb(246, 171, 58);
+}
+.p3-card {
+  width: 18%;
+  /* background-color: greenyellow; */
+  /* border: 2px solid black; */
+  padding: 5px;
+  /* margin: 0; */
+}
+.p3-card > img {
+  margin: auto;
+}
+.p3-card-head {
+  /* background-color: red; */
+  font-size: 26px;
+  font-weight: bolder;
+  text-align: left;
+  /* padding: 5px; */
+  margin: 0;
+  margin-top: 15px;
+}
+.p3-card-text {
+  background-color: white;
+  font-size: 15px;
+  text-align: left;
+  /* padding: 15px; */
+  margin: 0;
+  margin-top: 15px;
+}
+#page-4 {
+  margin-top: 50px;
+  /* background-color: bisque; */
+  background: url("mike-kenneally-tNALoIZhqVM-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+.p4-text {
+  /* background-color:#8c6846; */
+  color: #d4c9ba;
+  border-radius: 10px;
+  /* padding: 0.7%; */
+  width: fit-content;
+  font-size: 40px;
+  font-weight: 1000;
+  transform: translate(800px,210px);
+  margin-top: 10px;
+  margin-bottom: 0;
+}
